@@ -1,0 +1,82 @@
+/* Dashboard container */
+.dashboard-container {
+    background-color: #fff; /* or a light grey to blend with your theme */
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  /* Stats Panel Layout */
+  .stats-panel {
+    display: flex;
+    gap: 1rem;      /* space between cards */
+    margin-bottom: 2rem;
+  }
+  
+  /* Individual Stats Card */
+  .stats-card {
+    flex: 1;
+    background-color: #f0f0f0; /* light grey */
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Available Books Section */
+  .available-books-section {
+    margin-top: 1rem;
+  }
+  
+  /* Books Table */
+  .books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .books-table thead {
+    background-color: #ddd;
+  }
+  
+  .books-table th,
+  .books-table td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .books-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .borrow-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .borrow-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Feedback Message Styling */
+  .message {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

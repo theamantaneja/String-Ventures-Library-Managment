@@ -1,0 +1,70 @@
+/* Container for both borrow & return sections side by side */
+.borrow-return-container {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    background-color: #fff; /* White background for contrast */
+    color: #333;            /* Dark text on white background */
+    border-radius: 4px;
+  }
+  
+  /* Each section (Borrow / Return) */
+  .borrow-section, .return-section {
+    flex: 1; /* Ensure equal width for both sections if possible */
+  }
+  
+  /* Headings for sections */
+  .borrow-section h2, .return-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Forms */
+  .borrow-form, .return-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  /* Labels */
+  .borrow-form label,
+  .return-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Inputs */
+  .borrow-form input,
+  .return-form input {
+    width: 200px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  .borrow-form button,
+  .return-form button {
+    background-color: #444; /* Dark/grey background */
+    color: #fff;            /* White text */
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .borrow-form button:hover,
+  .return-form button:hover {
+    background-color: #666; /* Slightly lighter on hover */
+  }
+  
+  /* Messages (success/error) */
+  .message {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

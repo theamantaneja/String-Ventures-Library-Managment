@@ -1,0 +1,62 @@
+/* Container for the BookList page */
+.book-list-container {
+    background-color: #fff; /* White background to contrast with dark text */
+    color: #333;            /* Dark text */
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+  
+  /* Heading style */
+  .book-list-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Message styling (for success/error messages) */
+  .message {
+    background-color: #f0f0f0; /* Light grey to highlight the message */
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Table styling */
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  /* Table header row */
+  .book-table thead {
+    background-color: #ddd; /* Light grey background for header */
+  }
+  
+  /* Table cells */
+  .book-table th,
+  .book-table td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Zebra-striping for table rows */
+  .book-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Delete button styling */
+  .delete-btn {
+    background-color: #444; /* Dark/grey background */
+    color: #fff;            /* White text */
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #666; /* Slightly lighter on hover */
+  }
+  
